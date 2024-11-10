@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileNav matches the snapshot when a name and avatar are provided 1`] = `
+<div>
+  <nav
+    class="nav"
+  >
+    <ul
+      class="nav-list"
+    >
+      <li>
+        <div
+          class="avatar-profile"
+        >
+          <img
+            alt="Avatar of Sarah Edo"
+            class="avatar-nav"
+            src="https://gravatar.com/avatar/aa48413856561999ac26c16585832606?s=400&d=robohash&r=x"
+          />
+          <span>
+            Sarah Edo
+          </span>
+        </div>
+      </li>
+      <li>
+        <a
+          class="nav-option"
+          href="/login"
+        >
+          Logout
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
